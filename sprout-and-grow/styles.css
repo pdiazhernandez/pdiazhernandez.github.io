@@ -1,1 +1,66 @@
+/* Basic CSS file for Sprout & Grow website */
 
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* Image with text wrap */
+.wrap-image {
+    /* Apply float to let text wrap around the image */
+    float: left;
+    margin-right: 20px; /* Adds space between the image and the text for clarity */
+    /* Adjusts the size of the image for a balanced layout */
+    max-width: 50%;
+  margin-bottom: 1%;
+}
+header{
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    padding: 0px 0;
+  background-image: url();
+}
+/*Make logo image responsive*/
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+nav ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  background-color:#054D3B;
+}
+nav ul li{
+  display:inline;
+}
+nav ul li a{
+  color:ghostwhite;
+  padding: 10px 20px;
+  display:inline-block;
+  text-decoration:none;
+}
+nav ul li a:hover{
+  background-color:#8FBD4F;
+  color:#fff;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+  margin-bottom: 30%; /*to fit image above footer*/
+}
+
+hero {
+  padding: 20px;
+  
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add specific styles for navigation, main content, images, etc. */
